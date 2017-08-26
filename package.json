@@ -1,0 +1,29 @@
+{
+  "name": "ponder",
+  "version": "0.0.1",
+  "description": "A brainstoring app",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProgrammersParadise/app.git"
+  },
+  "author": "Chronomly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ProgrammersParadise/app/issues"
+  },
+  "homepage": "https://github.com/ProgrammersParadise/app#readme",
+  "devDependencies": {
+    "electron": "^1.7.5"
+  },
+  "dependencies": {
+    "ev-emitter": "^1.1.1",
+    "get-size": "^2.0.2",
+    "jquery": "^3.2.1",
+    "unidragger": "^2.2.3",
+    "unipointer": "^2.2.0"
+  }
+}

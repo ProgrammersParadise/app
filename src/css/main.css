@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #242226;
+    color: #EEEEEE;
+    font-family: "Lato", sans-serif
+  }
+  
+  .c1 {
+    color: #D02422;
+  }
+  
+  .c2 {
+    color: #D7A327;
+  }
+  
+  .c3 {
+    color: #5CAE32;
+  }
+  
+  .logo-header {
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C48123;
+    padding: .85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  
+  
+  /* Rules for using icons as black on a light background. */
+  
+  .material-icons.md-dark {
+    color: rgba(0, 0, 0, 0.54);
+  }
+  
+  .material-icons.md-dark.md-inactive {
+    color: rgba(0, 0, 0, 0.26);
+  }
+  
+  
+  /* Rules for using icons as white on a dark background. */
+  
+  .material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .material-icons.md-light.md-inactive {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .no-select {
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Likely future */
+  }
+  
+  .buttoncontainer>div {
+    /*all buttons. (category, folder and floating action)*/
+    box-shadow: 0 6px 10px 0 #1a1a1a;
+    transition: all 400ms ease;
+    position: fixed;
+    font-size: 24px;
+    right: 20px;
+    bottom: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 40px;
+    
+  }
+  
+  .buttoncontainer>div:first-child {
+    /*main, yellow, floating action button*/
+    background: #C38122;
+    box-shadow: 0 0px 0px 0 #1a1a1a;
+    transition: all 0s linear;
+    font-size: 36px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 60px;
+  }
+  
+  .buttoncontainer>div:nth-child(2) {
+  background:#D43000;
+  }
+  
+  .buttoncontainer>div:nth-child(3) {
+    background:#148604;
+  }
+  
+  .buttoncontainer>div:first-child:hover {
+    background: #ba6c0b;
+  }
+  
+  .buttoncontainer>div:nth-child(2):hover {
+    background: #a43000;
+  }
+  
+  .buttoncontainer>div:nth-child(3):hover {
+      background: #19660e;
+  }
+  .buttoncontainer>div:nth-child() {
+  
+    transition: linear;
+  }
+  .draggable {
+   
+    box-shadow: 0 6px 10px 0 #1a1a1a;
+    font-size: 36px;
+    position: fixed;
+    right: 50%;
+    bottom: 50%;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 60px;
+  }
+  
+  .draggable--squat { height: 100px; }
+  
+  .draggable.is-dragging {
+    opacity: 0.5;
+    z-index: 2;
+  }
+  
+  .draggable.is-dragging,
+  .draggable:hover,
+  .demo--handle .handle:hover {
+    cursor: move;
+    background: #0AF;
+  }

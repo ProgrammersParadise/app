@@ -1,0 +1,1 @@
+$("draggable").css("background-color", "#" + Math.ceil(Math.random()*999999));
